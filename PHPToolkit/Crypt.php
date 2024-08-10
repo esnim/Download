@@ -11,7 +11,7 @@ class Crypt
     
     /**
      * Algoritmo usado para generar firmas de datos.
-     * @var type
+     * @var int
      */
     private $sign_alg;    
     
@@ -103,7 +103,7 @@ class Crypt
     }
     
     /**
-     * Generar una firma usando una clave pública.
+     * Generar una firma usando una clave privada.
      * @param string $data
      * @param string $private_key
      * @return string
